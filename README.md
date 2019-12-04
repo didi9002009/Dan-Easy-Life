@@ -1,2 +1,2 @@
 # Dan-Easy-Life
-Quick recipes, DIYs, saving Tips
+Quick recipes, DIYs, saving tips, health tips
