@@ -298,7 +298,7 @@ border-bottom: none;
 }
  .feature-mockup
  {
-   bottom: -250px;
+   bottom: -225px;
    position: relative;
  }
 
@@ -306,6 +306,151 @@ border-bottom: none;
 {
   color: white;
 }
+
+.more-feature-area .title h2
+{
+  color: black;
+}
+
+.more-feature-area .title .sub-heading p
+{
+  color: darkgrey;
+}
+
+.more-feature-area
+{
+  padding: 100px 0;
+}
+
+.feature-list ul
+{
+  list-style: none;
+}
+.feature-list li
+{
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 80px;
+}
+
+.feature-list li:hover i
+{
+ color: white;
+ background-color: #00a7dd;
+ -webkit-transition: 0.5s ease;
+  -moz-transition: 0.es ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;  
+}
+
+.feature-icon
+{
+  position: absolute;
+  left:0;
+}
+
+.feature icon i
+{
+  width: 63px;
+  height: 63px;
+  text-align: 20px;
+  background: white;
+  color: deepskyblue;
+  border radiux: 50%;
+  border: 2px solid deepskyblue;
+  line-height:63px;
+}
+
+.feature-details h3
+{
+  color: deepskyblue;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.feature-details p
+{
+  color: #616161;
+  font-weight: 200px;
+}
+
+.more-feature-area img
+{
+  margin-left: 70px;
+}
+
+.testimonials
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(..//image/slider1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: white;
+  margin-top: 100px;
+}
+
+.testimonials .carousel-indicators
+{
+  bottom:-60px;
+}
+
+.testimonials .sub-hearding p
+{
+  color: white;
+}
+
+.carousel-inner img
+{
+  width: 150px;
+  height: 150px;
+  border radius: 100%;
+  border: 2px solid deepskyblue;
+  padding: 5px;
+}
+.testimonials .carousel-indicators li.active
+{
+  background-color: deepskyblue;
+}
+.testimonials .carousel-indicators li
+{
+  border: deepskyblue;
+}
+
+.team-area
+{
+  padding: 100px 0px;  
+}
+
+.team-area .sub-heading
+{
+  margin-bottom: 100px;
+}
+.team-man
+{
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: -50px;
+  overflow: hidden;
+  min-height: 100px;
+  height: 100px;
+  width: 100px;
+  min-width: 100px;
+  border: 10px solid deepskyblue;
+  border radius: 50%;  
+}
+
+.team-man img
+{
+  width: 100%;
+  height: 100%
+  min-height: 100%;
+  min-width: 100%;
+ border-radius: 50%;
+ }
 
 
 
