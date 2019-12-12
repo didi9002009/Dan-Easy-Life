@@ -1,4 +1,3 @@
-import "./styles.css";
 window.onload = function() {
 	jQuery(document).ready(function($) {
 		"use strict";
@@ -34,3 +33,4 @@ window.onload = function() {
 		});
 	});
 };
+import "./styles.css";
