@@ -8,7 +8,7 @@ body {
   min-height: 100%;  
 }
 header {
-  background-color: white;
+  background-color: deepskyblue;
   height: 212px;
   line-height: 212px;
   position: fixed;
@@ -37,26 +37,26 @@ header nav {
 header nav ul li a {
   padding-right: 30px;
   font-weight: bold;
-  color:deepskyblue;
+  color:white;
   transition: all 0.5s ease-in;
 }
 header nav ul li a:hover {
   text-decoration: none;
   color: red;
 }
-/*
-,
-img1 {
-  background-color: linear-gradient(rgba(0, 0, 0, 0.7)),
-    url(..//image/slider1.jpg);
+
+.img1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7),
+    url(..//image/colorfulFood.jpg);
   background-size: 100% 100%;
 }
+
 .slider,
 .slider ul,
 .slider ul li {
   height: 710px;
   width: 100%;
-  color: white;
+  color: deepskyblue;
   text-align: center;
 }
 .slider h2 {
@@ -80,7 +80,7 @@ img1 {
 }
 .slider a.btn-full {
   background-color: orange;
-  color: white;
+  color: deepskyblue;
   transition: 0.5s ease-in;
 }
 .slidera.btn-full: hover {
@@ -88,14 +88,15 @@ img1 {
 }
 .img2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(..//image/slider2.jpg);
+    url(..//image/foodArt.png);
   background-size: 100% 100%;
 }
 .img3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(..//image/slider3.jpg);
+    url(..//image/fastFood.jpg);
   background-size: 100% 100%;
 }
+/*
 .slider i {
   font-size: 35px;
   margin-right: 10px;
@@ -182,14 +183,14 @@ img1 {
   width: 63px;
   height: 63px;
   font-size: 30px;
-  color: white;
+  color: deepskyblue;
   line-height: 2;
   background: deepskyblue;
   border-radius: 50%;
   box-shadow: 0px 0px 0px 10px #cceef9;
 }
 .intro-block: hover .fa, intro-block.active .fa {
-  background: white;
+  background: deepskyblue;
   color: deepskyblue;
   box-shadow: 0px 0px 0px 10px deepskyblue;
 }
@@ -215,11 +216,11 @@ img1 {
 }
 .title h2, p
 {
-  color: white;
+  color: deepskyblue;
 }
 .single-feature h3
 {
-color: white;
+color: deepskyblue;
 }
 .single-feature
 {
@@ -257,7 +258,7 @@ color: white;
   border-radius: 50%
   font-size: 30px;
   background-color: #00a7dd;
-  color: white;
+  color: deepskyblue;
   width: 64px;
   height: 64px; 
   -webkit-transition: 0.3s ease;
@@ -269,7 +270,7 @@ color: white;
 
 .feature-block: hover .single-feature
 {
-  border-color: white;
+  border-color: deepskyblue;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
   -ms-transition: 0.3s ease;
@@ -280,7 +281,7 @@ color: white;
 .single-feature: hover .featured-icon .fa
 {
   border: 2px solid #00a7dd;
-  background: white;
+  background: deepskyblue;
   color: deepskyblue;  
 }
 
@@ -308,7 +309,7 @@ border-bottom: none;
 
 .title .sub-heading p
 {
-  color: white;
+  color: deepskyblue;
 }
 
 .more-feature-area .title h2
@@ -339,7 +340,7 @@ border-bottom: none;
 
 .feature-list li:hover i
 {
- color: white;
+ color: deepskyblue;
  background-color: #00a7dd;
  -webkit-transition: 0.5s ease;
   -moz-transition: 0.es ease;
@@ -359,7 +360,7 @@ border-bottom: none;
   width: 63px;
   height: 63px;
   text-align: 20px;
-  background: white;
+  background: deepskyblue;
   color: deepskyblue;
   border radiux: 50%;
   border: 2px solid deepskyblue;
@@ -392,7 +393,7 @@ border-bottom: none;
   background-attachment: fixed;
   padding-top: 120px;
   padding-bottom: 120px;
-  color: white;
+  color: deepskyblue;
   margin-top: 100px;
 }
 
@@ -403,7 +404,7 @@ border-bottom: none;
 
 .testimonials .sub-hearding p
 {
-  color: white;
+  color: deepskyblue;
 }
 
 .carousel-inner img
@@ -503,7 +504,7 @@ line-height: 24px;
 {
   height: 40px;
   width: 40px;
-  background: white;
+  background: deepskyblue;
   text-align: center;
   color: deepskyblue;
   border-radius: 50%;
@@ -520,7 +521,7 @@ line-height: 24px;
 .team-block :hover .team-description
 {
   background-color: deepskyblue;
-  color: white;
+  color: deepskyblue;
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;
   -ms-transition: 0.5s ease;
@@ -531,7 +532,7 @@ line-height: 24px;
 .team-block :hover .team-title h3,
 .team-block :hover .team-title span
 {
-color: white;
+color: deepskyblue;
 -webkit-transition: 0.4s ease;
   -moz-transition: 0.4s ease;
   -ms-transition: 0.4s ease;
@@ -551,9 +552,9 @@ color: white;
 
 .team-block :hover .team-social-network i
 {
-  border-color: white;
+  border-color: deepskyblue;
   background: deepskyblue; 
-  color: white;
+  color: deepskyblue;
   -webkit-transition: 0.4s ease;
   -moz-transition: 0.4s ease;
   -ms-transition: 0.4s ease;
@@ -569,7 +570,7 @@ color: white;
 
 .download .sub-heading p
 {
-  color: white;
+  color: deepskyblue;
 }
 
  .download
@@ -587,8 +588,8 @@ color: white;
  .download .default-btn
  {
    background: transparent;
-   border: 1px solid white;
-   color: white;
+   border: 1px solid deepskyblue;
+   color: deepskyblue;
     font-size: 20px;
     padding: 8px 40px;
     margin: 0 12px;
@@ -597,7 +598,7 @@ color: white;
 
  .download .default-btn :hover
 {
-  background: white;
+  background: deepskyblue;
   color: deepskyblue
 }
 
