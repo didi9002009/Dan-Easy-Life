@@ -101,7 +101,7 @@ header nav ul li a:hover {
   background-color: #e67e22;
 }
 
-.img2 {
+/* .img2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(..//image/foodLife.png);
   background-size: 100% 100%;
@@ -111,15 +111,15 @@ header nav ul li a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(..//image/fastFood.jpg);
   background-size: 100% 100%;
-}
+} */
 
-.slider i {
+/* .slider i {
   font-size: 35px;
   margin-right: 10px;
-}
+} */
 
 .intro-area {
-  position: absolute;
+  position: relative;
   padding: 100px 0px;
   text-align: certer;
 }
@@ -129,12 +129,12 @@ header nav ul li a:hover {
   margin-bottom: 75px;
 }
 
-.sub-heading:before {
+.sub-heading :before {
   content: "";
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -35%;
+  margin-left: -3%;
   width: 6%;
   height: 1px;
   background-color: deepskyblue;
@@ -146,12 +146,12 @@ header nav ul li a:hover {
   transition: 0.3s ease;
 }
 
-.sub-hearding:hover:before {
+.sub-hearding :hover :before{
   width: 24%;
   margin-left: -12px;
 }
 
-.sub-hearding:hover:after {
+.sub-heading :after {
   content: "";
   position: absolute;
   top: 100%;
@@ -159,13 +159,7 @@ header nav ul li a:hover {
   margin-left: -12%;
   width: 24%;
   height: 1px;
-  background-color: #e1e1e1;
-  z-index: 1;
-  -webkit-transition: 0.3s ease;
-  -moz-transition: 0.3s ease;
-  -ms-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
-  transition: 0.3s ease;
+  background-color: #e1e1e1;  
 }
 
 .sub-heading p {
@@ -217,7 +211,7 @@ header nav ul li a:hover {
 }
 
 .intro-block :hover .fa,
-intro-block.active .fa {
+.intro-block.active .fa {
   background: white;
   color: deepskyblue;
   box-shadow: 0px 0px 0px 10px deepskyblue;
@@ -232,12 +226,13 @@ intro-block.active .fa {
 }
 
 .intro-block p {
-  color: #550050;
+  color: #505050;
+  font-size: 15px;
 }
 
 .intro-block:hover h3,
 .intro-block:hover p {
-  color: #ff66f6;
+  color: #f6f6f6;
 }
 
 .featur-area {
