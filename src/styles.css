@@ -609,14 +609,14 @@ p {
 
 .contact-area h3 {
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 18px;
 }
 
 .contact-area h4 {
 	color: #3a3a3a;
 	font-weight: 700;
 	text-transform: capitalize;
-	margin-bottom: 40px;
+	margin-bottom: 4px;
 	letter-spacing: 0.025em;
 }
 
@@ -633,7 +633,7 @@ p {
 	margin-bottom: 25px;
 }
 
-.contact-area ul li :last-child {
+.contact-area ul li:last-child {
 	margin-bottom: 0px;
 }
 
@@ -646,7 +646,7 @@ p {
 
 .contact-area ul li .address-phone {
 	float: left;
-	width: 100px;
+	width: 180px;
 	padding-left: 25px;
 }
 
@@ -654,12 +654,13 @@ p {
 	padding-left: 25px;
 }
 
-.contact-area .form-contact .contact-area textarea {
+.contact-area .form-control .contact-area textarea {
 	font-family: "roboto", sans-serif;
-	background: #fafdff;
+	background: #f8f8f8;
 	border: 1px solid #a5d3eb;
 	padding: 10px 12px;
-	color: #bdbdbd;
+	color: yellow;
+	height: 45px;
 	font-weight: 400;
 	border-radius: 0;
 }
