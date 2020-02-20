@@ -1,6 +1,8 @@
-jQuery(document).ready(function ($) {
-	"use strict";
-	$('#slider-carousel').carouFredSel({
+import "./src/styles.css";
+/*eslint-env jquery*/
+jQuery(document).ready(function($) {
+	// "use strict";
+	$("#slider-carousel").carouFredSel({
 		responsive: true,
 		width: "100%",
 		circular: true,
@@ -22,7 +24,7 @@ jQuery(document).ready(function ($) {
 			pageAnchoBuiler: false
 		}
 	});
-	$(window).scroll(function () {
+	$(window).scroll(function() {
 		var top = $(window).scrollTop();
 		if (top >= 60) {
 			$("header").addClass("secondary");
@@ -31,4 +33,3 @@ jQuery(document).ready(function ($) {
 		}
 	});
 });
-import "./styles.css";
